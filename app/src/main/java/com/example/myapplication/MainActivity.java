@@ -26,6 +26,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        //hello.setText("Hi world!!");
+
     }
 }
