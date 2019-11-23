@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity"
+    android:orientation="vertical"
+    android:background="#000">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reporting In\n5 secs"
+        android:textColor="#FFF"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:layout_marginTop="150sp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="165dp"
+        android:layout_marginTop ="300dp"
+        android:padding="20dp"
+        android:text="CANCEL!"
+        android:textColor="#FFF"
+        android:id="@+id/cancelbut"
+        android:background="#FF0000"
+        />
+</LinearLayout>
